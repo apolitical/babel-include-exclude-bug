@@ -14,11 +14,11 @@ Usage
 
 Download and run `npm i && npm run build`
 
-*Expected behaviour*
+**Expected behaviour**
 
-`exclude: () => false` means not excluded
-`include: () => true` means included
+- `exclude: () => false` means not excluded
+- `include: () => true` means included
 
-*Actual behaviour*
+**Actual behaviour**
 
 query-string is not transformed, despite output from babel suggesting it will be.
