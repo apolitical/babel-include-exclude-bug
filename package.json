@@ -4,7 +4,7 @@
   "description": "Minimal proof of concept for a bug surrounding include / exclude",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js"
   },
   "author": "Daniel Mason <daniel.mason@apolitical.co>",
   "license": "MIT",
