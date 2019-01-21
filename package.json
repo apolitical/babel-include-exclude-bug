@@ -1,0 +1,19 @@
+{
+  "name": "babel-include-exclude-bug-poc",
+  "version": "1.0.0",
+  "description": "Minimal proof of concept for a bug surrounding include / exclude",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Mason <daniel.mason@apolitical.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
+    "query-string": "^6.2.0",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
